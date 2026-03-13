@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+.env.local
+config.sh
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output artifacts
+phase1_output/
+phase2_output/
+phase3_output/
+phase2_speech_synthesis/phase2_output/
+experiments/full_corpus_ablation_results/
+experiments/speaker_refs_5/
+experiments/speaker_refs_20/
+*.wav
+*.mp3
+*.flac
+
+# Large manifests (optional - uncomment if too large)
+# phase2_output/**/manifest.jsonl
+# phase3_output/**/augmented_manifest.jsonl
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API keys (never commit)
+*.key
+*.pem

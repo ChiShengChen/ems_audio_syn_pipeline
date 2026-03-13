@@ -1,0 +1,182 @@
+[
+  {
+    "speaker_id": "spk_00",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_00.wav",
+    "source_file": "202412010133-841696-14744_call_2.wav",
+    "offset_sec": 3.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0729,
+    "tags": "fire"
+  },
+  {
+    "speaker_id": "spk_01",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_01.wav",
+    "source_file": "202412061348-251491-14744_call_9.wav",
+    "offset_sec": 8.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0671,
+    "tags": "BLS, fire, police"
+  },
+  {
+    "speaker_id": "spk_02",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_02.wav",
+    "source_file": "202412050728-925202-14744_call_6.wav",
+    "offset_sec": 15.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0827,
+    "tags": "trauma, fall"
+  },
+  {
+    "speaker_id": "spk_03",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_03.wav",
+    "source_file": "202412031043-922113-14744_call_16.wav",
+    "offset_sec": 25.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.047,
+    "tags": "fire"
+  },
+  {
+    "speaker_id": "spk_04",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_04.wav",
+    "source_file": "202412021121-31317-14744_call_2.wav",
+    "offset_sec": 3.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.104,
+    "tags": "fire"
+  },
+  {
+    "speaker_id": "spk_05",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_05.wav",
+    "source_file": "202412011757-965821-14744_call_11.wav",
+    "offset_sec": 8.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.1008,
+    "tags": "fire"
+  },
+  {
+    "speaker_id": "spk_06",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_06.wav",
+    "source_file": "202412021649-160048-14744_call_7.wav",
+    "offset_sec": 15.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0597,
+    "tags": "gas leak"
+  },
+  {
+    "speaker_id": "spk_07",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_07.wav",
+    "source_file": "202412021022-748072-14744_call_9.wav",
+    "offset_sec": 25.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.1247,
+    "tags": "overdose, EMS, fire"
+  },
+  {
+    "speaker_id": "spk_08",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_08.wav",
+    "source_file": "202412041135-308215-14744_call_10.wav",
+    "offset_sec": 3.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.031,
+    "tags": "gas leak, illness"
+  },
+  {
+    "speaker_id": "spk_09",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_09.wav",
+    "source_file": "202412021919-979320-14744_call_3.wav",
+    "offset_sec": 8.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.1121,
+    "tags": "EMS, catheter"
+  },
+  {
+    "speaker_id": "spk_10",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_10.wav",
+    "source_file": "202412051456-239162-14744_call_1.wav",
+    "offset_sec": 15.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0932,
+    "tags": "nan"
+  },
+  {
+    "speaker_id": "spk_11",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_11.wav",
+    "source_file": "202412040607-588047-14744_call_11.wav",
+    "offset_sec": 25.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0819,
+    "tags": "maternity"
+  },
+  {
+    "speaker_id": "spk_12",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_12.wav",
+    "source_file": "202412011458-971661-14744_call_3.wav",
+    "offset_sec": 3.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0738,
+    "tags": "EMS"
+  },
+  {
+    "speaker_id": "spk_13",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_13.wav",
+    "source_file": "202412041305-617206-14744_call_14.wav",
+    "offset_sec": 8.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0729,
+    "tags": "difficulty breathing, EMS"
+  },
+  {
+    "speaker_id": "spk_14",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_14.wav",
+    "source_file": "202412041235-634426-14744_call_13.wav",
+    "offset_sec": 15.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.151,
+    "tags": "cardiac, EMS"
+  },
+  {
+    "speaker_id": "spk_15",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_15.wav",
+    "source_file": "202412021948-545512-14744_call_8.wav",
+    "offset_sec": 25.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0839,
+    "tags": "gunshot"
+  },
+  {
+    "speaker_id": "spk_16",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_16.wav",
+    "source_file": "202412061448-597093-14744_call_6.wav",
+    "offset_sec": 3.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.1258,
+    "tags": "ALS, BLS, trauma"
+  },
+  {
+    "speaker_id": "spk_17",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_17.wav",
+    "source_file": "202412040637-530611-14744_call_16.wav",
+    "offset_sec": 8.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0904,
+    "tags": "EMS"
+  },
+  {
+    "speaker_id": "spk_18",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_18.wav",
+    "source_file": "202412010731-280830-14744_call_1.wav",
+    "offset_sec": 15.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.1064,
+    "tags": "EMS"
+  },
+  {
+    "speaker_id": "spk_19",
+    "ref_path": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/speaker_refs/spk_19.wav",
+    "source_file": "202412050230-586791-14744_call_3.wav",
+    "offset_sec": 25.0,
+    "duration_sec": 5.0,
+    "rms_energy": 0.0469,
+    "tags": "roll call"
+  }
+]

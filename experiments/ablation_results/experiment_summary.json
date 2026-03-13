@@ -1,0 +1,22 @@
+{
+  "A_baseline": {
+    "desc": "5 speakers + original augmentation",
+    "avg_wer": 0.8932358133901448,
+    "n_samples": 200
+  },
+  "B_more_speakers": {
+    "desc": "20 speakers + original augmentation",
+    "avg_wer": 0.6473509671953391,
+    "n_samples": 200
+  },
+  "C_enhanced_aug": {
+    "desc": "5 spk + enhanced (ColorNoise+GainTransition)",
+    "avg_wer": 0.8169714664366131,
+    "n_samples": 200
+  },
+  "D_combined": {
+    "desc": "20 speakers + enhanced augmentation",
+    "avg_wer": 0.7292375490769598,
+    "n_samples": 200
+  }
+}

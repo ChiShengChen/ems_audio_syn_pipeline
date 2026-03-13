@@ -1,0 +1,1406 @@
+{
+  "avg_wer": 0.7292375490769598,
+  "n_samples": 200,
+  "details": [
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0000_v0.wav",
+      "ref": "medic 5 on scene at the group home on south witchduck 28 year old male autistic patient aggressive behavior staff unable to manage requesting pd for assist",
+      "hyp": "the tribe has seen a good problem of that with the 28 year old male autistic. they should be glad to see adrian's death. i may well be managed requesting p.c.",
+      "wer": 1.0,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0000_v1.wav",
+      "ref": "medic 5 on scene at the group home on south witchduck 28 year old male autistic patient aggressive behavior staff unable to manage requesting pd for assist",
+      "hyp": "then it caught on scene at the group home of south west side. 28 year old male autistic. patient aggressive behavior staff. unable to manage requesting pd. worth it.",
+      "wer": 0.4074074074074074,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0000_v2.wav",
+      "ref": "medic 5 on scene at the group home on south witchduck 28 year old male autistic patient aggressive behavior staff unable to manage requesting pd for assist",
+      "hyp": "the next question is about the problem of self-wrenching. how do you know if there are any options? the next question is about the question of the age of self. what are the options that are in the question of the age of self?",
+      "wer": 1.5925925925925926,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0000_v3.wav",
+      "ref": "medic 5 on scene at the group home on south witchduck 28 year old male autistic patient aggressive behavior staff unable to manage requesting pd for assist",
+      "hyp": "an ex-wife on scene at the group home on staff risk staff. 28 year old male autistic. patient aggressive behavior staff. unable to manage requesting pg. for a certain.",
+      "wer": 0.37037037037037035,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0001_v0.wav",
+      "ref": "dispatch medic 6 respond to 2300 virginia beach boulevard for a 35 year old pregnant female 32 weeks placenta previa known diagnosed last week now having heavy bleeding",
+      "hyp": "dispatch, medic. six. respond, 2300 virginia beach. full of them. four of 35-year-olds pregnant. female, 32 weeks.",
+      "wer": 0.8928571428571429,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0001_v1.wav",
+      "ref": "dispatch medic 6 respond to 2300 virginia beach boulevard for a 35 year old pregnant female 32 weeks placenta previa known diagnosed last week now having heavy bleeding",
+      "hyp": "this path, medically. six, respond to 2,300 virginia beach boulevard for a 35-year-old pregnant female 32 weeks.",
+      "wer": 0.6785714285714286,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0001_v2.wav",
+      "ref": "dispatch medic 6 respond to 2300 virginia beach boulevard for a 35 year old pregnant female 32 weeks placenta previa known diagnosed last week now having heavy bleeding",
+      "hyp": "his past medicals. three. six. respond 2,300 virginia beach boulevard for a 35-year-old pregnant female 32 weeks.",
+      "wer": 0.75,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0001_v3.wav",
+      "ref": "dispatch medic 6 respond to 2300 virginia beach boulevard for a 35 year old pregnant female 32 weeks placenta previa known diagnosed last week now having heavy bleeding",
+      "hyp": "dispatch medic. six. six. respond 2,300 virginia beach. four of them. four of 35-year-old pregnant. geno 32 weeks.",
+      "wer": 0.8928571428571429,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0002_v0.wav",
+      "ref": "medic 6 transporting to sentara virginia beach 70 year old female altered mental status blood sugar 34 d50 administered en route patient improving",
+      "hyp": "medic 6, transporting to central virginia. the seven-year-old female altered mental status blood sugar 34 d50 administered on root patient improving.",
+      "wer": 0.43478260869565216,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0002_v1.wav",
+      "ref": "medic 6 transporting to sentara virginia beach 70 year old female altered mental status blood sugar 34 d50 administered en route patient improving",
+      "hyp": "medic 6 transporting to fontero, virginia. the seven-year-old female altered mental status blood sugar 34d50 administered on root patient improving.",
+      "wer": 0.4782608695652174,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0002_v2.wav",
+      "ref": "medic 6 transporting to sentara virginia beach 70 year old female altered mental status blood sugar 34 d50 administered en route patient improving",
+      "hyp": "matic 6, transporting to central virginia, the 7-year-old female altered mental spout of sugar 34d50 administered on root patient improving.",
+      "wer": 0.6521739130434783,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0002_v3.wav",
+      "ref": "medic 6 transporting to sentara virginia beach 70 year old female altered mental status blood sugar 34 d50 administered en route patient improving",
+      "hyp": "medic 6, transporting to centero, virginia, the 70-year-old female altered mental status blood sugar 34d50 administered on route patient improving.",
+      "wer": 0.4782608695652174,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0003_v0.wav",
+      "ref": "tac 7 ems branch we have 4 patients from the apartment fire 2 with smoke inhalation 1 with second degree burns to both arms 1 with a fractured ankle from jumping",
+      "hyp": "i love you.",
+      "wer": 1.0,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0003_v1.wav",
+      "ref": "tac 7 ems branch we have 4 patients from the apartment fire 2 with smoke inhalation 1 with second degree burns to both arms 1 with a fractured ankle from jumping",
+      "hyp": "the whole universe.",
+      "wer": 0.967741935483871,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0003_v2.wav",
+      "ref": "tac 7 ems branch we have 4 patients from the apartment fire 2 with smoke inhalation 1 with second degree burns to both arms 1 with a fractured ankle from jumping",
+      "hyp": "ahhh!",
+      "wer": 1.0,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0003_v3.wav",
+      "ref": "tac 7 ems branch we have 4 patients from the apartment fire 2 with smoke inhalation 1 with second degree burns to both arms 1 with a fractured ankle from jumping",
+      "hyp": "the hell... ...haves...",
+      "wer": 0.967741935483871,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0004_v0.wav",
+      "ref": "engine 3 first on scene at general booth boulevard and nimmo parkway head on collision two vehicles heavy damage both drivers appear trapped requesting heavy rescue and 2 als units",
+      "hyp": "and then pray for both feet and gentle full power and gentle pathway and a collision for vehicle heading damage. all drivers of good cop requesting an arrest due at 2-1 students.",
+      "wer": 0.9333333333333333,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0004_v1.wav",
+      "ref": "engine 3 first on scene at general booth boulevard and nimmo parkway head on collision two vehicles heavy damage both drivers appear trapped requesting heavy rescue and 2 als units",
+      "hyp": "engine 3, first on scene at general booth boulevard and nimble parkway head on collision to vehicle heavy. appear traps requesting heavy rescue and to all units.",
+      "wer": 0.4,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0004_v2.wav",
+      "ref": "engine 3 first on scene at general booth boulevard and nimmo parkway head on collision two vehicles heavy damage both drivers appear trapped requesting heavy rescue and 2 als units",
+      "hyp": "engine 3, the scene at general booth boulevard and nimmo parkway head on collision through vehicles heavy damage. both drivers appear trapped, requesting heavy rescue and to all units.",
+      "wer": 0.3,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0004_v3.wav",
+      "ref": "engine 3 first on scene at general booth boulevard and nimmo parkway head on collision two vehicles heavy damage both drivers appear trapped requesting heavy rescue and 2 als units",
+      "hyp": "engine 3, for sun t. and general booth boulevard and nimble parkway head on collision to vehicle heavy damage. both drivers appear trapped requesting heavy rescue.",
+      "wer": 0.4666666666666667,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0005_v0.wav",
+      "ref": "dispatch medic 14 respond to 5700 northampton boulevard for a stabbing pd on scene one patient injuries unknown",
+      "hyp": "i stand in front of the us, by the fire and several other guys at the airport. i stand in the arms of the one patient in tucson now.",
+      "wer": 1.5,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0005_v1.wav",
+      "ref": "dispatch medic 14 respond to 5700 northampton boulevard for a stabbing pd on scene one patient injuries unknown",
+      "hyp": "this has heard 14 of the spina-firing subratic nerve-dancing bullards. press stab and pd on scene 1 patient entry, sun now.",
+      "wer": 0.8888888888888888,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0005_v2.wav",
+      "ref": "dispatch medic 14 respond to 5700 northampton boulevard for a stabbing pd on scene one patient injuries unknown",
+      "hyp": "i've had a hard time finding my spotify so far as i've had before. i've seen what vision this has got.",
+      "wer": 1.1666666666666667,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0005_v3.wav",
+      "ref": "dispatch medic 14 respond to 5700 northampton boulevard for a stabbing pd on scene one patient injuries unknown",
+      "hyp": "i have heard one day of my father calling someone like my dad before, but i still don't see the answer to what patient issues i've got.",
+      "wer": 1.4444444444444444,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0006_v0.wav",
+      "ref": "sentara princess anne labor and delivery this is rescue 5 field delivery healthy term infant mother 28 year old female no complications minimal bleeding baby crying and pink eta 12 minutes",
+      "hyp": "the time of christmas and labor is this is rescue. all these year old females, no complications, minimal bleeding, baby crying and pain. i'd all 12 minutes.",
+      "wer": 0.7096774193548387,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0006_v1.wav",
+      "ref": "sentara princess anne labor and delivery this is rescue 5 field delivery healthy term infant mother 28 year old female no complications minimal bleeding baby crying and pink eta 12 minutes",
+      "hyp": "the time of christmas and the night this is resting. i don't need your little female. no complications, minimal cleaning, fading, crying, and peace. i'd ask her, little girl.",
+      "wer": 0.9032258064516129,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0006_v2.wav",
+      "ref": "sentara princess anne labor and delivery this is rescue 5 field delivery healthy term infant mother 28 year old female no complications minimal bleeding baby crying and pink eta 12 minutes",
+      "hyp": "the time of christmas and april is key rescue. all these hero females, no complications, minimal bleeding.",
+      "wer": 0.8709677419354839,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0006_v3.wav",
+      "ref": "sentara princess anne labor and delivery this is rescue 5 field delivery healthy term infant mother 28 year old female no complications minimal bleeding baby crying and pink eta 12 minutes",
+      "hyp": "the total princess and their boy, this is rescue. i have the zero female. no complications, minimal bleeding.",
+      "wer": 0.8709677419354839,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0007_v0.wav",
+      "ref": "rescue 1 copy dispatch responding to the oceanfront 10th street public restroom for a 20 year old female possible sexual assault pd is on scene victim is ambulatory",
+      "hyp": "rescue on copy, staff responding to the ocean's front chemistry public rescue. for a 20 year old female possible sexual assault, pd is unseen. victim's unit away.",
+      "wer": 0.4642857142857143,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0007_v1.wav",
+      "ref": "rescue 1 copy dispatch responding to the oceanfront 10th street public restroom for a 20 year old female possible sexual assault pd is on scene victim is ambulatory",
+      "hyp": "when you want coffee dispatch responding to the oceanfront tent street public restroom, or a 20 year old female possible sexual assault pd is unseen, make them ambulatory.",
+      "wer": 0.42857142857142855,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0007_v2.wav",
+      "ref": "rescue 1 copy dispatch responding to the oceanfront 10th street public restroom for a 20 year old female possible sexual assault pd is on scene victim is ambulatory",
+      "hyp": "rescue 1 copy dispatch responding to the oceanfront-temps street public restroom. for a 20-year-old female, possible sexual assault pb is unseen. make them view the toy.",
+      "wer": 0.5,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0007_v3.wav",
+      "ref": "rescue 1 copy dispatch responding to the oceanfront 10th street public restroom for a 20 year old female possible sexual assault pd is on scene victim is ambulatory",
+      "hyp": "the rent you uncopied is back, responding to the ocean by 10 feet up the grass. for a 20-year-old female possible sexual assault, pee-dee is on scene. big computer's flying.",
+      "wer": 0.7857142857142857,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0008_v0.wav",
+      "ref": "sentara norfolk general trauma this is medic 14 trauma alert 31 year old male single stab wound left upper quadrant abdomen hemodynamically stable for now eta 9 minutes",
+      "hyp": "and pteranorphic general trauma. this is medic for... alert 31 year old. male single stab wound left. upper quadrant abdomen. hemedine 9 minute stable for now. e.v.",
+      "wer": 0.5357142857142857,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0008_v1.wav",
+      "ref": "sentara norfolk general trauma this is medic 14 trauma alert 31 year old male single stab wound left upper quadrant abdomen hemodynamically stable for now eta 9 minutes",
+      "hyp": "the terror and awful general trauma. this is medic 14 trauma. a merits 31 year old. male single stab wound left. upper quadrant abdomen. hemody nine minutes stable for now.",
+      "wer": 0.6428571428571429,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0008_v2.wav",
+      "ref": "sentara norfolk general trauma this is medic 14 trauma alert 31 year old male single stab wound left upper quadrant abdomen hemodynamically stable for now eta 9 minutes",
+      "hyp": "the taranor folk, general drama. this is medic 14 drama. alert 31 year old. male single stab wound left. upper quadrant abdomen. hemadee. ed9.",
+      "wer": 0.5357142857142857,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0008_v3.wav",
+      "ref": "sentara norfolk general trauma this is medic 14 trauma alert 31 year old male single stab wound left upper quadrant abdomen hemodynamically stable for now eta 9 minutes",
+      "hyp": "and taranorfolk general trauma. this is medic 14 trauma. alert 31 year old. male single stab wound left. upper quadrant abdomen. hemedy nine minutes stable for now.",
+      "wer": 0.5,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0009_v0.wav",
+      "ref": "medic 15 update patient has numbness in the perineal area and bilateral leg weakness concerning for cauda equina syndrome requesting priority transport to sentara with neurosurgery",
+      "hyp": "medics to the uk station. as numbness in the surreal area and bilateral leg meat. concerning for cauda of cleanup. syndrome requesting priority transport. sentry arrows in neural surgery.",
+      "wer": 0.6153846153846154,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0009_v1.wav",
+      "ref": "medic 15 update patient has numbness in the perineal area and bilateral leg weakness concerning for cauda equina syndrome requesting priority transport to sentara with neurosurgery",
+      "hyp": "medic-16 update patient has numbness in the perineal area and bilateral light-meets, concerning for cauda equina. syndrome requesting priority transport to ventral neurosurgeons.",
+      "wer": 0.3076923076923077,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0009_v2.wav",
+      "ref": "medic 15 update patient has numbness in the perineal area and bilateral leg weakness concerning for cauda equina syndrome requesting priority transport to sentara with neurosurgery",
+      "hyp": "medic-16 update patient has numbness in the pervial area and bilateral leg weakness concerning for cauda equina syndrome requesting priority transport to centero neural surgery.",
+      "wer": 0.23076923076923078,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0009_v3.wav",
+      "ref": "medic 15 update patient has numbness in the perineal area and bilateral leg weakness concerning for cauda equina syndrome requesting priority transport to sentara with neurosurgery",
+      "hyp": "medic-16 update patient has numbness in the perineal area and bilateral light region concerning for... syndrome requesting priority transport to centero neurosurgeons.",
+      "wer": 0.38461538461538464,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0010_v0.wav",
+      "ref": "medic 5 roger responding to 7200 lake wright drive hotel for a 60 year old female who fell in the bathtub unable to get out hip pain",
+      "hyp": "at her time, while her responding to 7200 leads, wife tried her tell for a 60 year old female who fell in the bathtub unable to get off her face.",
+      "wer": 0.48148148148148145,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0010_v1.wav",
+      "ref": "medic 5 roger responding to 7200 lake wright drive hotel for a 60 year old female who fell in the bathtub unable to get out hip pain",
+      "hyp": "and her parents, roger responding to seven... white dry hotel for a 60 year old female who fell in the bathtub unable to get on hip pain.",
+      "wer": 0.3333333333333333,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0010_v2.wav",
+      "ref": "medic 5 roger responding to 7200 lake wright drive hotel for a 60 year old female who fell in the bathtub unable to get out hip pain",
+      "hyp": "and i'm happy roger responding is 7200 late, the white driver tells for a 60 year old female to tell in the bathtub unable to get off your face",
+      "wer": 0.5185185185185185,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0010_v3.wav",
+      "ref": "medic 5 roger responding to 7200 lake wright drive hotel for a 60 year old female who fell in the bathtub unable to get out hip pain",
+      "hyp": "and the power. roger is spotting a 7200 lake. white drive will tell for a 60 year old female who fell in the bathtub unable to get off his pace.",
+      "wer": 0.48148148148148145,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0011_v0.wav",
+      "ref": "engine 22 on scene at the community college on princess anne road male student found in the bathroom with superficial lacerations to both wrists bleeding controlled alert and cooperative",
+      "hyp": "in 2022, i've seen up a community college on princess anne roadnail students, found in the bathroom with superficial lacerations to both risk leading control of the words, we, cooperative, and co-op.",
+      "wer": 0.6206896551724138,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0011_v1.wav",
+      "ref": "engine 22 on scene at the community college on princess anne road male student found in the bathroom with superficial lacerations to both wrists bleeding controlled alert and cooperative",
+      "hyp": "in 2022, our senior community college on princess anne wrote mail, excuse me, out in the bathroom with superficial lacerations to both risk bleeding control of the words, bleeding.",
+      "wer": 0.5862068965517241,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0011_v2.wav",
+      "ref": "engine 22 on scene at the community college on princess anne road male student found in the bathroom with superficial lacerations to both wrists bleeding controlled alert and cooperative",
+      "hyp": "in 2022, i've seen a community college of princess and rosemary students. found in the bathroom with superficial lacerations to both risk reading the children's words, reading, cooperative, and cooperative.",
+      "wer": 0.6551724137931034,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0011_v3.wav",
+      "ref": "engine 22 on scene at the community college on princess anne road male student found in the bathroom with superficial lacerations to both wrists bleeding controlled alert and cooperative",
+      "hyp": "in june 2022, i was seen at the community college on princess anne road rail, student, held in the bathroom with superficial lacerations to bulk with leading patrol delights, leading cooperatives,",
+      "wer": 0.5517241379310345,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0012_v0.wav",
+      "ref": "rescue 4 roger en route to 2200 pleasure house road for a pediatric fever 2 year old female temp 105 per mom",
+      "hyp": "rescue 4. on route to 2,200. pleasure house. road for pediatric seek. two year old female dad. 105 per mom.",
+      "wer": 0.45454545454545453,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0012_v1.wav",
+      "ref": "rescue 4 roger en route to 2200 pleasure house road for a pediatric fever 2 year old female temp 105 per mom",
+      "hyp": "rescue force. on route to 2,200. pleasure house. road for pediatric fever. two year old female test. 105 per mom.",
+      "wer": 0.45454545454545453,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0012_v2.wav",
+      "ref": "rescue 4 roger en route to 2200 pleasure house road for a pediatric fever 2 year old female temp 105 per mom",
+      "hyp": "rescue 4, on route to 2200 pleasure house, grown for a pediatric fever, 2 year old female pet, 105 per mom.",
+      "wer": 0.36363636363636365,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0012_v3.wav",
+      "ref": "rescue 4 roger en route to 2200 pleasure house road for a pediatric fever 2 year old female temp 105 per mom",
+      "hyp": "rescue 4. on route to 2,200. pleasure house. road for a pediatric fever. two year old female test. 105.",
+      "wer": 0.5,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0013_v0.wav",
+      "ref": "medic 6 on scene baby is breathing color is pink mom states the baby stopped breathing for about 30 seconds and turned blue now appears normal vitals are within normal limits for age",
+      "hyp": "medic 6. unseen baby is breathing. color is pink. mom.",
+      "wer": 0.8484848484848485,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0013_v1.wav",
+      "ref": "medic 6 on scene baby is breathing color is pink mom states the baby stopped breathing for about 30 seconds and turned blue now appears normal vitals are within normal limits for age",
+      "hyp": "now it's six. unseen baby is breathing. color is pink. mom.",
+      "wer": 0.8787878787878788,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0013_v2.wav",
+      "ref": "medic 6 on scene baby is breathing color is pink mom states the baby stopped breathing for about 30 seconds and turned blue now appears normal vitals are within normal limits for age",
+      "hyp": "now it's six. i'm seeing daddy is breathing. color is pink. mom.",
+      "wer": 0.9393939393939394,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0013_v3.wav",
+      "ref": "medic 6 on scene baby is breathing color is pink mom states the baby stopped breathing for about 30 seconds and turned blue now appears normal vitals are within normal limits for age",
+      "hyp": "that is six unseen various presenters to thank mom.",
+      "wer": 0.9696969696969697,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0014_v0.wav",
+      "ref": "sentara norfolk general this is medic 13 near drowning with cardiac arrest 22 year old male rosc achieved sats 85 on high flow intubating for airway protection bilateral rales heard eta 14",
+      "hyp": "to tell the north coast generals this is medic 13, near drowning with cardiac arrest. 22-year-old male ross achieved fas 85 on high flow, intubating for airway protection the lateral rails for dga 14.",
+      "wer": 0.625,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0014_v1.wav",
+      "ref": "sentara norfolk general this is medic 13 near drowning with cardiac arrest 22 year old male rosc achieved sats 85 on high flow intubating for airway protection bilateral rales heard eta 14",
+      "hyp": "to karen rochel general, this is medic 13, near drowning with cardiac arrest. 22-year-old male ross achieved fast 85 on high flow, intubating for airway protection the lateral rails for vta-14.",
+      "wer": 0.53125,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0014_v2.wav",
+      "ref": "sentara norfolk general this is medic 13 near drowning with cardiac arrest 22 year old male rosc achieved sats 85 on high flow intubating for airway protection bilateral rales heard eta 14",
+      "hyp": "lieutenant north coast general, this is medic 13, near drowning with cardiac arrest. 22-year-old male ross achieved sat 85 on high flow, intubating for airway protection the lateral rails for dga 14.",
+      "wer": 0.5625,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0014_v3.wav",
+      "ref": "sentara norfolk general this is medic 13 near drowning with cardiac arrest 22 year old male rosc achieved sats 85 on high flow intubating for airway protection bilateral rales heard eta 14",
+      "hyp": "in the town of rockville general, this is medic 13, near drowning with cardiac arrest. 22-year-old male ross achieves fas 85 on high flow, intubating for airway protection the lateral rails for dga 14.",
+      "wer": 0.65625,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0015_v0.wav",
+      "ref": "dispatch to rescue 6 respond priority 2 to 4400 wishart road for a sick person 50 year old male nausea and vomiting for 2 days",
+      "hyp": "dispatch to rescue six. response priority two to four thousand four hundred. wishart wrote for a sick person. fifty year old male nausea and vomiting for two days.",
+      "wer": 0.48,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0015_v1.wav",
+      "ref": "dispatch to rescue 6 respond priority 2 to 4400 wishart road for a sick person 50 year old male nausea and vomiting for 2 days",
+      "hyp": "dispatch to rescue six. respond priority two to four thousand four hundred for a sick person. fifty year old male nausea and vomiting for two days.",
+      "wer": 0.4,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0015_v2.wav",
+      "ref": "dispatch to rescue 6 respond priority 2 to 4400 wishart road for a sick person 50 year old male nausea and vomiting for 2 days",
+      "hyp": "dispatch to rescue six. respond priority two to four thousand four hundred. wishart wrote for a sick person. fifty year old male nausea and vomiting for two days.",
+      "wer": 0.44,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0015_v3.wav",
+      "ref": "dispatch to rescue 6 respond priority 2 to 4400 wishart road for a sick person 50 year old male nausea and vomiting for 2 days",
+      "hyp": "dispatch to rescue six. respond priority two to four thousand four hundred. wishart wrote for a sick person. fifty year old mollie and vollmott were two days.",
+      "wer": 0.6,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0016_v0.wav",
+      "ref": "medic 10 on scene 25 year old female ingested approximately 4 ounces of household bleach 30 minutes ago oral burns visible drooling unable to swallow airway currently patent but edematous",
+      "hyp": "that exam, seeing 25-year-old female ingested approximately 4 ounces of household bleach 30 minutes ago, oral burns visible through wings. unable to swallow airway currently patented. what a damage it is.",
+      "wer": 0.5333333333333333,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0016_v1.wav",
+      "ref": "medic 10 on scene 25 year old female ingested approximately 4 ounces of household bleach 30 minutes ago oral burns visible drooling unable to swallow airway currently patent but edematous",
+      "hyp": "that is, kfc 25-year-old female injected approximately 4 ounces of household bleach 30 minutes ago, all for invisible true weight. unable to swallow airway currently packaged, but in damages.",
+      "wer": 0.5666666666666667,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0016_v2.wav",
+      "ref": "medic 10 on scene 25 year old female ingested approximately 4 ounces of household bleach 30 minutes ago oral burns visible drooling unable to swallow airway currently patent but edematous",
+      "hyp": "that exam seen 25 year old female injected approximately 4 ounces of household bleach 30 minutes ago while birth visible drooling. unable swallowed airway currently patents. what a damage it.",
+      "wer": 0.5,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0016_v3.wav",
+      "ref": "medic 10 on scene 25 year old female ingested approximately 4 ounces of household bleach 30 minutes ago oral burns visible drooling unable to swallow airway currently patent but edematous",
+      "hyp": "that is saying i'm seeing 25-year-old female injected approximately four ounces of household bleach 30 minutes ago. oral burns visible through it. unable to swallow airway currently patented. but it damages.",
+      "wer": 0.5,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0017_v0.wav",
+      "ref": "sentara virginia beach this is rescue 2 electrical injury patient 47 year old male 220 volt contact cardiac monitor shows sinus tach no dysrhythmia entry exit wounds dressed eta 9",
+      "hyp": "what's going on? what's up virginia beach? this is rescue to electrical and urination. 47 year old. male. 220 volts.",
+      "wer": 0.8666666666666667,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0017_v1.wav",
+      "ref": "sentara virginia beach this is rescue 2 electrical injury patient 47 year old male 220 volt contact cardiac monitor shows sinus tach no dysrhythmia entry exit wounds dressed eta 9",
+      "hyp": "that's right. what's your origin, your beach? this is rescue to electrical engineering station. what is 7-year-old? me, oh. 10-hour and 20-",
+      "wer": 1.0,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0017_v2.wav",
+      "ref": "sentara virginia beach this is rescue 2 electrical injury patient 47 year old male 220 volt contact cardiac monitor shows sinus tach no dysrhythmia entry exit wounds dressed eta 9",
+      "hyp": "this is rescue to electrical injury patient. 47 year old. male. 220 volts contact cardiac.",
+      "wer": 0.7,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0017_v3.wav",
+      "ref": "sentara virginia beach this is rescue 2 electrical injury patient 47 year old male 220 volt contact cardiac monitor shows sinus tach no dysrhythmia entry exit wounds dressed eta 9",
+      "hyp": "this is rescue to electrical injury patient. 47 year old. male.",
+      "wer": 0.7666666666666667,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0018_v0.wav",
+      "ref": "medic 10 patient report 48 year old male construction worker impaled by rebar right thigh object still in place stabilized with bulky dressing do not remove",
+      "hyp": "medic 10 patients report 48-year-old male construction workers are right by. objects still in place stabilized with bulky dressing. cannot remove heat.",
+      "wer": 0.5384615384615384,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0018_v1.wav",
+      "ref": "medic 10 patient report 48 year old male construction worker impaled by rebar right thigh object still in place stabilized with bulky dressing do not remove",
+      "hyp": "netty 10 patient report, 48-year-old male construction worker impaled by rebar right thigh. objects still in place, they've watched with bulky dresses. do not remove re-hairs.",
+      "wer": 0.46153846153846156,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0018_v2.wav",
+      "ref": "medic 10 patient report 48 year old male construction worker impaled by rebar right thigh object still in place stabilized with bulky dressing do not remove",
+      "hyp": "medic pantation reports 48-year-old male construction worker impaled by rebar right thigh. objects still in place stabilized with bulky dressing. cannot remove heat.",
+      "wer": 0.46153846153846156,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0018_v3.wav",
+      "ref": "medic 10 patient report 48 year old male construction worker impaled by rebar right thigh object still in place stabilized with bulky dressing do not remove",
+      "hyp": "medic pan patient required 48-year-old male construction worker impaled by rebar right thigh. objects still in place stabilized with bulky dressing.",
+      "wer": 0.4230769230769231,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0019_v0.wav",
+      "ref": "engine 5 to dispatch at the marina on long creek possible drowning witnesses say a kayaker flipped over in the channel fire boat en route",
+      "hyp": "this is your client. this guy took the burrito. a wall creak possible drowning witnesses. say hi. hi, accurate. flip silver and the channel fired.",
+      "wer": 0.88,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0019_v1.wav",
+      "ref": "engine 5 to dispatch at the marina on long creek possible drowning witnesses say a kayaker flipped over in the channel fire boat en route",
+      "hyp": "i am the only one who can survive this tragic abrego of all three possible driving witnesses. i am the fifth builder in the channel fireproof of the united states.",
+      "wer": 1.04,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0019_v2.wav",
+      "ref": "engine 5 to dispatch at the marina on long creek possible drowning witnesses say a kayaker flipped over in the channel fire boat en route",
+      "hyp": "in surprise, this guy took the burrito, a lot of creeped possible driving witnesses. say hi. i act like a trip filver in the channel fireproof.",
+      "wer": 0.92,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0019_v3.wav",
+      "ref": "engine 5 to dispatch at the marina on long creek possible drowning witnesses say a kayaker flipped over in the channel fire boat en route",
+      "hyp": "in shafai, there's a fire truck at the marina on wall creek, surrounding witnesses. say i, i anchor a flip-doover in the channel fire boots on the roof.",
+      "wer": 0.8,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0020_v0.wav",
+      "ref": "medic 1 on scene 11 month old female drooling unable to swallow gagging intermittently coin likely lodged in the esophagus not in the airway breathing adequate color pink",
+      "hyp": "that it was unseen, 11 of those females ruling, unable to swallow guyling intermittency, calling likely logs to the esophagus. not in the air, we breathe inadequate color pink.",
+      "wer": 0.6785714285714286,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0020_v1.wav",
+      "ref": "medic 1 on scene 11 month old female drooling unable to swallow gagging intermittently coin likely lodged in the esophagus not in the airway breathing adequate color pink",
+      "hyp": "medic 1, on scene, 11 of those females ruling, unable to swallow gagging intermittency, calling life being lodged to be esophagus. not in the air we breathe any adequate color pink.",
+      "wer": 0.6428571428571429,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0020_v2.wav",
+      "ref": "medic 1 on scene 11 month old female drooling unable to swallow gagging intermittently coin likely lodged in the esophagus not in the airway breathing adequate color pink",
+      "hyp": "let it round. i'm seeing. you're looking up on the piano generally. i'm able to swallow the game in commission. i'm calling you on my technology to be a softener. i'm wondering whether you're always remaining out of this cover thing.",
+      "wer": 1.3928571428571428,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0020_v3.wav",
+      "ref": "medic 1 on scene 11 month old female drooling unable to swallow gagging intermittently coin likely lodged in the esophagus not in the airway breathing adequate color pink",
+      "hyp": "that is one unseen, is that a muscle can now grow in, unable to swallow gagging intermittency, crying like a lodge to the esophagus. not in the air we remain",
+      "wer": 0.8571428571428571,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0021_v0.wav",
+      "ref": "medic 4 roger responding to the chesapeake bay bridge tunnel south island for a construction worker injured requesting access from the bridge tunnel police",
+      "hyp": "medic 4, roger, responding to the chesapeake bay bridge tunnel. self-island for a construction worker injured requesting access from the bridge tunnel police.",
+      "wer": 0.25,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0021_v1.wav",
+      "ref": "medic 4 roger responding to the chesapeake bay bridge tunnel south island for a construction worker injured requesting access from the bridge tunnel police",
+      "hyp": "medic 4, roger responding to the chesapeake bay bridge tunnel, self-billed for a construction worker injured requesting access from the bridge tunnel police.",
+      "wer": 0.20833333333333334,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0021_v2.wav",
+      "ref": "medic 4 roger responding to the chesapeake bay bridge tunnel south island for a construction worker injured requesting access from the bridge tunnel police",
+      "hyp": "medic 4, roger responding to the chesapeake bay bridge tunnel. self-island for a construction worker injured requesting access from the bridge tunnel police.",
+      "wer": 0.20833333333333334,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0021_v3.wav",
+      "ref": "medic 4 roger responding to the chesapeake bay bridge tunnel south island for a construction worker injured requesting access from the bridge tunnel police",
+      "hyp": "medic 4, roger responding to the chesapeake bay bridge tunnel. self-iled for a construction worker injured requesting access from the bridge.",
+      "wer": 0.2916666666666667,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0022_v0.wav",
+      "ref": "rescue 7 on scene 25 year old male dental abscess right lower jaw significant facial swelling fever 101.5 trismus noted difficulty opening his mouth airway patent but monitoring closely",
+      "hyp": "i'm seeing 25-year-old male. mental access, right lower jaw, significant facial, swelling fever, 101, points of... noted difficulty.",
+      "wer": 0.8620689655172413,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0022_v1.wav",
+      "ref": "rescue 7 on scene 25 year old male dental abscess right lower jaw significant facial swelling fever 101.5 trismus noted difficulty opening his mouth airway patent but monitoring closely",
+      "hyp": "rescue 7 on scene 25 year old male. dental access right lower jaw. significant facial. swelling fever. 101. 0.5. christmas. noted difficulty. opening his mouth airway. patents.",
+      "wer": 0.4827586206896552,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0022_v2.wav",
+      "ref": "rescue 7 on scene 25 year old male dental abscess right lower jaw significant facial swelling fever 101.5 trismus noted difficulty opening his mouth airway patent but monitoring closely",
+      "hyp": "...rescue 7 on scene 25-year-old male. dental access, right lower jaw, significant facial, swelling fever. 101.5. christmas. noted difficult.",
+      "wer": 0.6896551724137931,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0022_v3.wav",
+      "ref": "rescue 7 on scene 25 year old male dental abscess right lower jaw significant facial swelling fever 101.5 trismus noted difficulty opening his mouth airway patent but monitoring closely",
+      "hyp": "rescue 7 on scene 25 year old male. significant facial swelling fever 101.5 christmas. notice difficulty. opening dismount airway.",
+      "wer": 0.5517241379310345,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0023_v0.wav",
+      "ref": "medic 11 on scene 40 year old male anaphylaxis resolved after patient self administered epi full body hives persistent throat tightness administering second epi and iv solumedrol",
+      "hyp": "medical oven on scene. 40 year old male anaphylaxis resolved after patient self administered. at the full body highs, persistent throat. tightness administering second epi and iv, solem drill.",
+      "wer": 0.4074074074074074,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0023_v1.wav",
+      "ref": "medic 11 on scene 40 year old male anaphylaxis resolved after patient self administered epi full body hives persistent throat tightness administering second epi and iv solumedrol",
+      "hyp": "medic 11 on scene. 40 year old male anaphylaxis resolved after patient self administered. at b full body hives persistent proof. tightness administering second epi and iv selendrel.",
+      "wer": 0.2222222222222222,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0023_v2.wav",
+      "ref": "medic 11 on scene 40 year old male anaphylaxis resolved after patient self administered epi full body hives persistent throat tightness administering second epi and iv solumedrol",
+      "hyp": "medic 11. 40 year old male anaphylaxis resolved after patient self-administered. f.b. full body hives, persistent throat. tightness administering second f.b. and iv, selum dro.",
+      "wer": 0.4444444444444444,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0023_v3.wav",
+      "ref": "medic 11 on scene 40 year old male anaphylaxis resolved after patient self administered epi full body hives persistent throat tightness administering second epi and iv solumedrol",
+      "hyp": "medical on an unseen. 40 year old male anaphylaxis resolved after patient self administered. at the full body hives persistent proof. tightness administering second epi and iv. so the girl.",
+      "wer": 0.4444444444444444,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0024_v0.wav",
+      "ref": "rescue 6 10-4 we copy responding to 1900 laskin road for a breathing difficulty 67 year old female history of copd",
+      "hyp": "we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help you. we're here to help",
+      "wer": 15.142857142857142,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0024_v1.wav",
+      "ref": "rescue 6 10-4 we copy responding to 1900 laskin road for a breathing difficulty 67 year old female history of copd",
+      "hyp": "we can't be responding to 1900s left in roads or a breathing difficulty. 57 year old female history of co-tdcs.",
+      "wer": 0.6190476190476191,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0024_v2.wav",
+      "ref": "rescue 6 10-4 we copy responding to 1900 laskin road for a breathing difficulty 67 year old female history of copd",
+      "hyp": "the rescue, except for the cops who were bombing the 1900s, lasted rows, were a breathing difficulty, 67 year old, female history of co-cdc.",
+      "wer": 0.8095238095238095,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0024_v3.wav",
+      "ref": "rescue 6 10-4 we copy responding to 1900 laskin road for a breathing difficulty 67 year old female history of copd",
+      "hyp": "as you extend for, we copy and respond to 1900 laskin road for a breathing difficulty 67 year old female history of co-pdg.",
+      "wer": 0.3333333333333333,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0025_v0.wav",
+      "ref": "rescue 9 copy dispatch show us responding to 4800 haygood road for a 58 year old male with numbness and tingling in his left arm for the past 2 hours",
+      "hyp": "as you might have, happy dispatch show us responding to 4,008 or 58 year old male with numbness and two women in his left door the past two hours.",
+      "wer": 0.5333333333333333,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0025_v1.wav",
+      "ref": "rescue 9 copy dispatch show us responding to 4800 haygood road for a 58 year old male with numbness and tingling in his left arm for the past 2 hours",
+      "hyp": "as he lands, how did this bad show us? responding to 4,000 ace world 58-year-old males with numbness and tingling in his left arm the past two hours.",
+      "wer": 0.6666666666666666,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0025_v2.wav",
+      "ref": "rescue 9 copy dispatch show us responding to 4800 haygood road for a 58 year old male with numbness and tingling in his left arm for the past 2 hours",
+      "hyp": "as in a happy dispatch show us responding to four thousand eight one fifty eight year old male with numbness and tingling in his life span for the past two hours",
+      "wer": 0.43333333333333335,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0025_v3.wav",
+      "ref": "rescue 9 copy dispatch show us responding to 4800 haygood road for a 58 year old male with numbness and tingling in his left arm for the past 2 hours",
+      "hyp": "as you might have, how could this bad show us responding to four thousand? you, old male, with numbness and teamwork in his left arm for the past two hours.",
+      "wer": 0.6333333333333333,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0026_v0.wav",
+      "ref": "medic 2 on scene at the methodist church on laskin road 80 year old female slipped on wet floor during sunday service hip pain shortened and externally rotated leg obvious hip fracture",
+      "hyp": "the medic drew a scene at the methodist church on the 1st floor of the church. females slipped on with form during sunday's service, hip pain, shortness, and externally rotated length of the assist fraction.",
+      "wer": 0.65625,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0026_v1.wav",
+      "ref": "medic 2 on scene at the methodist church on laskin road 80 year old female slipped on wet floor during sunday service hip pain shortened and externally rotated leg obvious hip fracture",
+      "hyp": "when it comes to european methodist church, our last day of the year, we also have done a call, during sunday's service, to bring, shuttling, and externally rotated bread. obvious infraction.",
+      "wer": 0.84375,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0026_v2.wav",
+      "ref": "medic 2 on scene at the methodist church on laskin road 80 year old female slipped on wet floor during sunday service hip pain shortened and externally rotated leg obvious hip fracture",
+      "hyp": "medic 2 on scene at the methodist church. females slipped on whip floor during sunday's service, hip pain, shortened and externally rotated leg. obvious hip fractures.",
+      "wer": 0.4375,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0026_v3.wav",
+      "ref": "medic 2 on scene at the methodist church on laskin road 80 year old female slipped on wet floor during sunday service hip pain shortened and externally rotated leg obvious hip fracture",
+      "hyp": "at the methodist church on wasken road, 80 year old, females slipped on whipfall during sunday's service, hip pain, short-moored and externally rotated leg.",
+      "wer": 0.5625,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0027_v0.wav",
+      "ref": "rescue 7 on scene patient was not directly struck lightning hit a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcs 15 vitals stable",
+      "hyp": "rescue 7, ponce in patient, was not directly struck lightning, yet a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcf 15 vitals stable.",
+      "wer": 0.26666666666666666,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0027_v1.wav",
+      "ref": "rescue 7 on scene patient was not directly struck lightning hit a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcs 15 vitals stable",
+      "hyp": "rescue 7 on scene patient was not directly struck lightning, yet a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcf 15 vitals stable.",
+      "wer": 0.13333333333333333,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0027_v2.wav",
+      "ref": "rescue 7 on scene patient was not directly struck lightning hit a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcs 15 vitals stable",
+      "hyp": "rescue 7 on-scene patient was not directly struck lightning, yet a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcf, 15 vitals stable.",
+      "wer": 0.2,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0027_v3.wav",
+      "ref": "rescue 7 on scene patient was not directly struck lightning hit a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcs 15 vitals stable",
+      "hyp": "rescue 7 on-scene patient was not directly struck lightning, yet a nearby tree patient was knocked down complaining of ringing in his ears and tingling gcf 15 vitals stable.",
+      "wer": 0.2,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0028_v0.wav",
+      "ref": "medic 8 on scene textbook chf exacerbation patient in tripod position bilateral crackles halfway up 3 plus pitting edema bp 190 over 110 sats 84 cpap going on now",
+      "hyp": "medicate on scene textbook.",
+      "wer": 0.9310344827586207,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0028_v1.wav",
+      "ref": "medic 8 on scene textbook chf exacerbation patient in tripod position bilateral crackles halfway up 3 plus pitting edema bp 190 over 110 sats 84 cpap going on now",
+      "hyp": "medicate on-scene textbook. ehf. exacerbation. patient in tripod position. bilateral crackles. halfway up three plus. pitting edema bp. 190. over 110. sat.",
+      "wer": 0.6896551724137931,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0028_v2.wav",
+      "ref": "medic 8 on scene textbook chf exacerbation patient in tripod position bilateral crackles halfway up 3 plus pitting edema bp 190 over 110 sats 84 cpap going on now",
+      "hyp": "medicated on scene textbook, ehf, exacerbation. patient in a tripod position, bilateral crackles halfway up three plus, hitting edema bp, 190, over 110, sats 84, cpap going on now.",
+      "wer": 0.5172413793103449,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0028_v3.wav",
+      "ref": "medic 8 on scene textbook chf exacerbation patient in tripod position bilateral crackles halfway up 3 plus pitting edema bp 190 over 110 sats 84 cpap going on now",
+      "hyp": "medicaid on scene textbook. ehf exacerbation. patient in tripod position. bilateral crackles halfway up three plus. pitting edema bp. 190. over 110. sats 84. cpap going up.",
+      "wer": 0.4827586206896552,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0029_v0.wav",
+      "ref": "sentara norfolk general trauma this is medic 10 impalement injury 48 year old male rebar through right thigh pulseless foot distal to injury hemodynamically stable eta 11 minutes request or standby",
+      "hyp": "than paranormal general trauma. this is medic ken and pailman. 48 year old male rebars right thigh, helpless foot, dysphiltic injury, seemingly dynamically stable, the fear of",
+      "wer": 0.7096774193548387,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0029_v1.wav",
+      "ref": "sentara norfolk general trauma this is medic 10 impalement injury 48 year old male rebar through right thigh pulseless foot distal to injury hemodynamically stable eta 11 minutes request or standby",
+      "hyp": "this is manatee nainan-hilman. 40-year-old male, rebarched right eye, hostess foot, disculc's injury, human in dynamic with stable. be here one minute. request for standby.",
+      "wer": 0.9032258064516129,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0029_v2.wav",
+      "ref": "sentara norfolk general trauma this is medic 10 impalement injury 48 year old male rebar through right thigh pulseless foot distal to injury hemodynamically stable eta 11 minutes request or standby",
+      "hyp": "on karen northfield's general tama, this is medic 10 impiliman. 48 year old male regards right eye, hustle's foot, disfulto injury, human dynamic is stable. be here one minute. request for standby.",
+      "wer": 0.7419354838709677,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0029_v3.wav",
+      "ref": "sentara norfolk general trauma this is medic 10 impalement injury 48 year old male rebar through right thigh pulseless foot distal to injury hemodynamically stable eta 11 minutes request or standby",
+      "hyp": "i'm telling north of general tomer. this is lieutenant hillman. oye, ear, old, male, three... hulseless foot, disfult's wintry, seemingly nigh on a sustainable, easier, one minute request for standby.",
+      "wer": 0.9354838709677419,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0030_v0.wav",
+      "ref": "medic 3 we are transporting from the beach at 42nd street 14 year old male possible spinal cord injury dove into shallow water cannot feel his legs c spine immobilized on backboard",
+      "hyp": "night three. we are transporting from the beach at 42nd street. 14 year old. male possible spinal cord. injury dove into shallow water. cannot feel his legs. see spine immobilized on back.",
+      "wer": 0.28125,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0030_v1.wav",
+      "ref": "medic 3 we are transporting from the beach at 42nd street 14 year old male possible spinal cord injury dove into shallow water cannot feel his legs c spine immobilized on backboard",
+      "hyp": "night three, we are transporting from the beach at 42nd street. 14 year old, male possible spinal cord. injury dove into shallow water, cannot feel his legs. he's spine immobilized on that.",
+      "wer": 0.28125,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0030_v2.wav",
+      "ref": "medic 3 we are transporting from the beach at 42nd street 14 year old male possible spinal cord injury dove into shallow water cannot feel his legs c spine immobilized on backboard",
+      "hyp": "night three. we are transporting from the beach at 42nd street. 14 year old. male possible spinal cord. injury dove into shallow water. cannot feel his legs. see spine and",
+      "wer": 0.34375,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0030_v3.wav",
+      "ref": "medic 3 we are transporting from the beach at 42nd street 14 year old male possible spinal cord injury dove into shallow water cannot feel his legs c spine immobilized on backboard",
+      "hyp": "night three. we are transporting from the beach at 42nd street. nail possible spinal cord. injury dove into shallow water. cannot feel her legs. she's spine immobilized on that.",
+      "wer": 0.40625,
+      "speaker_id": "spk_10"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0031_v0.wav",
+      "ref": "rescue 2 patient is a 47 year old male electrician shocked by 220 volts while working on a panel box entry wound on right hand exit on right foot has pulse rhythm is sinus tachy at 110",
+      "hyp": "now, let's shoot. two patients, a 47-year-old metal electrician, shot by 224, while working on a panel box, answering rooms on right hand. exit on right foot.",
+      "wer": 0.7027027027027027,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0031_v1.wav",
+      "ref": "rescue 2 patient is a 47 year old male electrician shocked by 220 volts while working on a panel box entry wound on right hand exit on right foot has pulse rhythm is sinus tachy at 110",
+      "hyp": "two patients, a 47-year-old male electrician, shot by 220 volts while working on a",
+      "wer": 0.7567567567567568,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0031_v2.wav",
+      "ref": "rescue 2 patient is a 47 year old male electrician shocked by 220 volts while working on a panel box entry wound on right hand exit on right foot has pulse rhythm is sinus tachy at 110",
+      "hyp": "rescue. two patients, a 47-year-old male electrician, shot by 220 volts while working on a panel box. entry wound on right hand. exit on right foot has pulse rhythm as sinus tachy.",
+      "wer": 0.40540540540540543,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0031_v3.wav",
+      "ref": "rescue 2 patient is a 47 year old male electrician shocked by 220 volts while working on a panel box entry wound on right hand exit on right foot has pulse rhythm is sinus tachy at 110",
+      "hyp": "rescue. two patients, a 47-year-old metal electrician, shot by 224 while working on a panel box, answering one on right hand. exit. on right foot, has pulse rhythm as fine as packing.",
+      "wer": 0.6216216216216216,
+      "speaker_id": "spk_11"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0032_v0.wav",
+      "ref": "medic 9 roger show us responding to the waffle house on military highway for a 35 year old male burned by hot grease bilateral hands and arms",
+      "hyp": "...netic... ...nodgers show as responding to the waffle house on military highway for a 35-year-old male... ...burnt by hot grease...",
+      "wer": 0.5185185185185185,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0032_v1.wav",
+      "ref": "medic 9 roger show us responding to the waffle house on military highway for a 35 year old male burned by hot grease bilateral hands and arms",
+      "hyp": "medic.",
+      "wer": 1.0,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0032_v2.wav",
+      "ref": "medic 9 roger show us responding to the waffle house on military highway for a 35 year old male burned by hot grease bilateral hands and arms",
+      "hyp": "...",
+      "wer": 1.0,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0032_v3.wav",
+      "ref": "medic 9 roger show us responding to the waffle house on military highway for a 35 year old male burned by hot grease bilateral hands and arms",
+      "hyp": "the modules show us responding to the waffle house on military highway for a 35-year-old male. buried by hot grease,",
+      "wer": 0.48148148148148145,
+      "speaker_id": "spk_12"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0033_v0.wav",
+      "ref": "medic 13 we have a 65 year old male sudden onset slurred speech right arm drift facial droop noted initiating stroke protocol time of onset 1545",
+      "hyp": "medic 13, we have a 65 year old male sudden onset slurred speech. right arm drift facial droop noted initiating stroke protocol time of onset. 1545.",
+      "wer": 0.15384615384615385,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0033_v1.wav",
+      "ref": "medic 13 we have a 65 year old male sudden onset slurred speech right arm drift facial droop noted initiating stroke protocol time of onset 1545",
+      "hyp": "medic 13, we have a 65 year old male sudden onset slurred speech right arm drift facial droop noted initiating stroke protocol time of onset. 1545.",
+      "wer": 0.11538461538461539,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0033_v2.wav",
+      "ref": "medic 13 we have a 65 year old male sudden onset slurred speech right arm drift facial droop noted initiating stroke protocol time of onset 1545",
+      "hyp": "that is 13. we have a 65-year-old male, seven on sets, swerved speech, right on deaf facial terms, noted, initiating, true. time of onset. 1545.",
+      "wer": 0.7692307692307693,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0033_v3.wav",
+      "ref": "medic 13 we have a 65 year old male sudden onset slurred speech right arm drift facial droop noted initiating stroke protocol time of onset 1545",
+      "hyp": "medic 13, we have a 65 year old male sudden onset slurred speech. right arm drift facial droop noted initiating stroke protocol time of onset. 1545.",
+      "wer": 0.15384615384615385,
+      "speaker_id": "spk_13"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0034_v0.wav",
+      "ref": "sentara norfolk general burn center this is medic 4 inhalation injury with facial burns 55 year old male intubated in the field sats 98 on the vent bp stable eta 14 minutes",
+      "hyp": "since high and orphaned general burn center, this is medics for inhalation injury. with facial burns, 55-year-old male, intubated in the field, sas98 on event bp, stable each year, 14 minutes.",
+      "wer": 0.6875,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0034_v1.wav",
+      "ref": "sentara norfolk general burn center this is medic 4 inhalation injury with facial burns 55 year old male intubated in the field sats 98 on the vent bp stable eta 14 minutes",
+      "hyp": "on sarenorphic genobrine center, this is med for inhalation injury. with facial burns, 55-year-old male intubated the fields, fast 98 on the vent bp, stable each year, 14 minutes.",
+      "wer": 0.59375,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0034_v2.wav",
+      "ref": "sentara norfolk general burn center this is medic 4 inhalation injury with facial burns 55 year old male intubated in the field sats 98 on the vent bp stable eta 14 minutes",
+      "hyp": "that's how i know from general garden center this is medics or inhalation injury. with facial burns, 55 year old male incubated the field, size 98 on a vent bp, same old dga, 14 minutes.",
+      "wer": 0.625,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0034_v3.wav",
+      "ref": "sentara norfolk general burn center this is medic 4 inhalation injury with facial burns 55 year old male intubated in the field sats 98 on the vent bp stable eta 14 minutes",
+      "hyp": "that's how i know from general burns center this is med-4 inhalation injury. with facial burns, 55 year old male, he intubated the field, sounds 98, on a vent bp, same old, each year, 14 minutes.",
+      "wer": 0.71875,
+      "speaker_id": "spk_14"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0035_v0.wav",
+      "ref": "engine 9 on scene at the intersection of witchduck road and south independence we have a motorcycle down one patient road rash and possible tib fib fracture",
+      "hyp": "engine 9, on scene at the intersection of woodstock road and south independent, we have a motorcycle down one patient road grass and possible hip hip fracture.",
+      "wer": 0.25925925925925924,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0035_v1.wav",
+      "ref": "engine 9 on scene at the intersection of witchduck road and south independence we have a motorcycle down one patient road rash and possible tib fib fracture",
+      "hyp": "engine 9, on scene at the intersection of woodstock road and south independence, we have a motorcycle down one patient road rash and possibly a kick-sit fracture.",
+      "wer": 0.25925925925925924,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0035_v2.wav",
+      "ref": "engine 9 on scene at the intersection of witchduck road and south independence we have a motorcycle down one patient road rash and possible tib fib fracture",
+      "hyp": "engine 9, on scene at the intersection of woodstock road and south independence, we have a motorcycle down one patient road rush and possible kitchen structure.",
+      "wer": 0.25925925925925924,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0035_v3.wav",
+      "ref": "engine 9 on scene at the intersection of witchduck road and south independence we have a motorcycle down one patient road rash and possible tib fib fracture",
+      "hyp": "engine 9, on scene at the intersection of woodstock road and shopping dependent. we have a motorcycle, a down-lampation road rash, and possible, cheap protection.",
+      "wer": 0.48148148148148145,
+      "speaker_id": "spk_15"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0036_v0.wav",
+      "ref": "rescue 3 roger show us en route to the aquarium on general booth boulevard for a 12 year old male stung by a jellyfish in the touch tank having difficulty breathing",
+      "hyp": "rescue 3 roger on his en route to the aquarium on... for a 12 year old male stung by a chilly fish in the touch tank having difficulty breathing.",
+      "wer": 0.2903225806451613,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0036_v1.wav",
+      "ref": "rescue 3 roger show us en route to the aquarium on general booth boulevard for a 12 year old male stung by a jellyfish in the touch tank having difficulty breathing",
+      "hyp": "rescue 3 was sent to the aquarium on general poulevard for a 12 year old male, sung by a killing fish in the touch tank, having different",
+      "wer": 0.45161290322580644,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0036_v2.wav",
+      "ref": "rescue 3 roger show us en route to the aquarium on general booth boulevard for a 12 year old male stung by a jellyfish in the touch tank having difficulty breathing",
+      "hyp": "rescue 3 roger, order the fleet to the aquarium on general booth boulevard for a 12 year old male, started by a chilling fish in the touchdown, having difficulty breathing.",
+      "wer": 0.3870967741935484,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0036_v3.wav",
+      "ref": "rescue 3 roger show us en route to the aquarium on general booth boulevard for a 12 year old male stung by a jellyfish in the touch tank having difficulty breathing",
+      "hyp": "rescue 3 roger, on his en route to the aquarium on general boot boulevard for a 12 year old male, sung by a chilling fish in the touch tank, having difficulty breathing.",
+      "wer": 0.3225806451612903,
+      "speaker_id": "spk_16"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0037_v0.wav",
+      "ref": "engine 11 on scene at pembroke mall food court 30 year old female choking unable to speak cyanotic attempting abdominal thrusts",
+      "hyp": "engine 11, on scene at pepperdine hall, food, court, 30 year old female choking unable to speak cyanotic, attempting abdominal thrust.",
+      "wer": 0.3333333333333333,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0037_v1.wav",
+      "ref": "engine 11 on scene at pembroke mall food court 30 year old female choking unable to speak cyanotic attempting abdominal thrusts",
+      "hyp": "engine 11 on seeing a pamper ball, food, court, 30 year old female choking on able to speak cyanotic.",
+      "wer": 0.5714285714285714,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0037_v2.wav",
+      "ref": "engine 11 on scene at pembroke mall food court 30 year old female choking unable to speak cyanotic attempting abdominal thrusts",
+      "hyp": "engine 11 on scenic pepper pals food court. 30 year old female choking unable to speak cyanotic attempting abdominal thrusts.",
+      "wer": 0.2857142857142857,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0037_v3.wav",
+      "ref": "engine 11 on scene at pembroke mall food court 30 year old female choking unable to speak cyanotic attempting abdominal thrusts",
+      "hyp": "engine 11 on scenic pembrokaw food court 30 year old female choking unable to speak cyanotic",
+      "wer": 0.3333333333333333,
+      "speaker_id": "spk_17"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0038_v0.wav",
+      "ref": "rescue 7 copy show us responding to the bayville golf course for a 65 year old male struck by lightning while on the 7th hole pd and fire en route",
+      "hyp": "rescue 7, copy show. that was respond to a bagel golf course for a 65 year old male struck by lightning while on the seventh hole pd and fought",
+      "wer": 0.36666666666666664,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0038_v1.wav",
+      "ref": "rescue 7 copy show us responding to the bayville golf course for a 65 year old male struck by lightning while on the 7th hole pd and fire en route",
+      "hyp": "rescue 7, copy show. that was responding to a bagel golf course for a 65 year old male struck by lightning while on the seventh hole pd and fire on group.",
+      "wer": 0.3,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0038_v2.wav",
+      "ref": "rescue 7 copy show us responding to the bayville golf course for a 65 year old male struck by lightning while on the 7th hole pd and fire en route",
+      "hyp": "rescue 7 copy show that was responding to a bagel golf course for 65 year old male struck by lightning. 7th hole pd and",
+      "wer": 0.4,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0038_v3.wav",
+      "ref": "rescue 7 copy show us responding to the bayville golf course for a 65 year old male struck by lightning while on the 7th hole pd and fire en route",
+      "hyp": "rescue 7, copy shilla. paddles respond to the beagle golf course for a 65 year old male struck by lightning while on the 7th opd and fire on route.",
+      "wer": 0.3,
+      "speaker_id": "spk_18"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0039_v0.wav",
+      "ref": "rescue 13 on scene at the senior center on holland road 81 year old male tripped on the curb outside fall onto outstretched hand complaining of wrist pain and swelling",
+      "hyp": "of the 1950s, on seeing at the senior center of hollingdon beach, a little male trip occurred outside fall, a drop should have, complaining of wrist aches and swelling.",
+      "wer": 0.7,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0039_v1.wav",
+      "ref": "rescue 13 on scene at the senior center on holland road 81 year old male tripped on the curb outside fall onto outstretched hand complaining of wrist pain and swelling",
+      "hyp": "the old shirt on the curve, outside, bald, on to outstretched hair, complaining of wrist aches and swelling.",
+      "wer": 0.7333333333333333,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0039_v2.wav",
+      "ref": "rescue 13 on scene at the senior center on holland road 81 year old male tripped on the curb outside fall onto outstretched hand complaining of wrist pain and swelling",
+      "hyp": "if you're good to unseen at the senior center on holland roadage, all we have, they all trip on the curb, outside, fall onto outstretched hands complaining of rich pain and swelling.",
+      "wer": 0.5666666666666667,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0039_v3.wav",
+      "ref": "rescue 13 on scene at the senior center on holland road 81 year old male tripped on the curb outside fall onto outstretched hand complaining of wrist pain and swelling",
+      "hyp": "if you're good to not see an embassy in your center on howard road east, i would have may i have checked on the code outside fall onto our church hands complaining of wrist pain and swelling.",
+      "wer": 0.8,
+      "speaker_id": "spk_19"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0040_v0.wav",
+      "ref": "sentara virginia beach this is medic 10 caustic ingestion 25 year old female bleach oral burns present airway swelling concern intubation equipment ready iv fluids running do not induce vomiting eta 7",
+      "hyp": "the power of virginia beach. this is letting 10 cross the congestion. 25 year old female bleach. all over.",
+      "wer": 0.84375,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0040_v1.wav",
+      "ref": "sentara virginia beach this is medic 10 caustic ingestion 25 year old female bleach oral burns present airway swelling concern intubation equipment ready iv fluids running do not induce vomiting eta 7",
+      "hyp": "the power of virginia, beach. this is medic 10, cost the congestion. 25 year old female bleach, oral burns, present hair ways, swelling to turn into basement equipment. ready, four, one and two months.",
+      "wer": 0.8125,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0040_v2.wav",
+      "ref": "sentara virginia beach this is medic 10 caustic ingestion 25 year old female bleach oral burns present airway swelling concern intubation equipment ready iv fluids running do not induce vomiting eta 7",
+      "hyp": "the power of virginia, each, this is medic 10 costly congestion. 25 year old female bleach, oral burns, present hair waves flowing to turn incubation equipment. ready for when i do not induce vomiting, epa, seven.",
+      "wer": 0.6875,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0040_v3.wav",
+      "ref": "sentara virginia beach this is medic 10 caustic ingestion 25 year old female bleach oral burns present airway swelling concern intubation equipment ready iv fluids running do not induce vomiting eta 7",
+      "hyp": "the south american air, they can't. the north american air calls for congestion. the north american air, they know a place to be. all by. the north american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the south american air, all by the",
+      "wer": 11.875,
+      "speaker_id": "spk_00"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0041_v0.wav",
+      "ref": "engine 9 to dispatch confirm the address is 3400 virginia beach boulevard unit 7 no one is answering the door we can hear someone calling for help inside requesting pd for forced entry",
+      "hyp": "engine 9 to dispatch. confirm the address is 3400 virginia beach, boulevard. unit 7. no one is answering the door. we can hear someone calling.",
+      "wer": 0.42424242424242425,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0041_v1.wav",
+      "ref": "engine 9 to dispatch confirm the address is 3400 virginia beach boulevard unit 7 no one is answering the door we can hear someone calling for help inside requesting pd for forced entry",
+      "hyp": "engine 9 to dispatch. confirm the address is 3400 virginia beach boulevard. unit 7. no one is answering the door. we can hear someone calling.",
+      "wer": 0.3939393939393939,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0041_v2.wav",
+      "ref": "engine 9 to dispatch confirm the address is 3400 virginia beach boulevard unit 7 no one is answering the door we can hear someone calling for help inside requesting pd for forced entry",
+      "hyp": "engine 9 to dispatch. confirm the address is 3400 virginia beach boulevard. unit 7. no one is answering the door. we can hear someone calling.",
+      "wer": 0.3939393939393939,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0041_v3.wav",
+      "ref": "engine 9 to dispatch confirm the address is 3400 virginia beach boulevard unit 7 no one is answering the door we can hear someone calling for help inside requesting pd for forced entry",
+      "hyp": "engine 9 to dispatch. confirm the address is 3400 virginia beach boulevard. unit 7. no one is answering the door. we can hear someone calling.",
+      "wer": 0.3939393939393939,
+      "speaker_id": "spk_01"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0042_v0.wav",
+      "ref": "chkd this is medic 9 inbound 2 year old male accidental ingestion of amlodipine unknown quantity poison control recommends 24 hour observation vitals currently stable eta 20 minutes",
+      "hyp": "cots of this is medic 9, inbound two-year-old, male accidental ingestion of amylopine. unknown quantity poison control. recommend 24-hour observation. rital currently stable, eating 20 minutes.",
+      "wer": 0.5714285714285714,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0042_v1.wav",
+      "ref": "chkd this is medic 9 inbound 2 year old male accidental ingestion of amlodipine unknown quantity poison control recommends 24 hour observation vitals currently stable eta 20 minutes",
+      "hyp": "hot-position medic 9, inbound two-year-old, male accidental ingestion of amylopine. unknown quantity poison control. recommend 24-hour observation. vital currently stable, eta-21.",
+      "wer": 0.6428571428571429,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0042_v2.wav",
+      "ref": "chkd this is medic 9 inbound 2 year old male accidental ingestion of amlodipine unknown quantity poison control recommends 24 hour observation vitals currently stable eta 20 minutes",
+      "hyp": "hust-sesitous medic-9 inbound 2-year-old mail excedental ingestion of amladipine unknown quantity poison control recommissed 24-hour observation vitals currently stable etae 20 minutes",
+      "wer": 0.5357142857142857,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0042_v3.wav",
+      "ref": "chkd this is medic 9 inbound 2 year old male accidental ingestion of amlodipine unknown quantity poison control recommends 24 hour observation vitals currently stable eta 20 minutes",
+      "hyp": "tusk to this is medic 9, inbound two-year-old, male accidental ingestion of amylsopine. unknown quantity poison control, recommends 24-hour observation. vitals currently stable each take 20 minutes.",
+      "wer": 0.5,
+      "speaker_id": "spk_02"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0043_v0.wav",
+      "ref": "rescue 11 clear from sentara bayside 10-8 available",
+      "hyp": "i still love and care, and so i'm happy i signed. can i get a award?",
+      "wer": 2.0,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0043_v1.wav",
+      "ref": "rescue 11 clear from sentara bayside 10-8 available",
+      "hyp": "rescue 11 clear from some terrible side.",
+      "wer": 0.5,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0043_v2.wav",
+      "ref": "rescue 11 clear from sentara bayside 10-8 available",
+      "hyp": "rescue 11 clear from some carabace high. available.",
+      "wer": 0.5,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0043_v3.wav",
+      "ref": "rescue 11 clear from sentara bayside 10-8 available",
+      "hyp": "rescue 11 clear from some terror base side. can they hear a little?",
+      "wer": 1.125,
+      "speaker_id": "spk_03"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0044_v0.wav",
+      "ref": "sentara virginia beach this is rescue 14 svt 55 year old male rate 200 failed vagal maneuvers adenosine 6 milligrams given no change second dose 12 milligrams converting rate now 85 bp 120 over 80 eta 7",
+      "hyp": "that's our virginia beach. this is rector 14, s.d.t.",
+      "wer": 0.9459459459459459,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0044_v1.wav",
+      "ref": "sentara virginia beach this is rescue 14 svt 55 year old male rate 200 failed vagal maneuvers adenosine 6 milligrams given no change second dose 12 milligrams converting rate now 85 bp 120 over 80 eta 7",
+      "hyp": "that's our virginia beach. this is rescue 14, s.p.t.",
+      "wer": 0.918918918918919,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0044_v2.wav",
+      "ref": "sentara virginia beach this is rescue 14 svt 55 year old male rate 200 failed vagal maneuvers adenosine 6 milligrams given no change second dose 12 milligrams converting rate now 85 bp 120 over 80 eta 7",
+      "hyp": "that's our virginia beach. this is rester 14, sgt.",
+      "wer": 0.9459459459459459,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0044_v3.wav",
+      "ref": "sentara virginia beach this is rescue 14 svt 55 year old male rate 200 failed vagal maneuvers adenosine 6 milligrams given no change second dose 12 milligrams converting rate now 85 bp 120 over 80 eta 7",
+      "hyp": "that's all for general fh. this is roster 14, stt.",
+      "wer": 1.0,
+      "speaker_id": "spk_04"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0045_v0.wav",
+      "ref": "rescue 4 10-4 responding to the recreation center on lynnhaven road for a teenager with a possible broken arm from skateboarding conscious and breathing",
+      "hyp": "asking for 10-4 responding to the recreation center on lynn haven road. for a teenager with a possible broken arm. from skateboarding conscious and breathing.",
+      "wer": 0.2916666666666667,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0045_v1.wav",
+      "ref": "rescue 4 10-4 responding to the recreation center on lynnhaven road for a teenager with a possible broken arm from skateboarding conscious and breathing",
+      "hyp": "as you forecast, the new recreation center on one haven road for a teenager with a possible broken arm from skateboarding conscious and breathing.",
+      "wer": 0.375,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0045_v2.wav",
+      "ref": "rescue 4 10-4 responding to the recreation center on lynnhaven road for a teenager with a possible broken arm from skateboarding conscious and breathing",
+      "hyp": "asking for 10-4 responding to the recreation center of linnaeus and road. for a teenager with a possible broken arm. from skateboarding conscious and breathing.",
+      "wer": 0.3333333333333333,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0045_v3.wav",
+      "ref": "rescue 4 10-4 responding to the recreation center on lynnhaven road for a teenager with a possible broken arm from skateboarding conscious and breathing",
+      "hyp": "as you walk in for responding to the recreation center on one hazy road, for a teenager with a possible broken heart, who's state-bought in the world, can break it.",
+      "wer": 0.7083333333333334,
+      "speaker_id": "spk_05"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0046_v0.wav",
+      "ref": "medic 15 transporting 88 year old male from the assisted living on first colonial road generalized weakness unable to stand has been in bed for 3 days dehydrated bls transport",
+      "hyp": "and has been in bed for three days, dehydrated bialis transporters.",
+      "wer": 0.8,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0046_v1.wav",
+      "ref": "medic 15 transporting 88 year old male from the assisted living on first colonial road generalized weakness unable to stand has been in bed for 3 days dehydrated bls transport",
+      "hyp": "the medical department is now in the hospital.",
+      "wer": 0.9333333333333333,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0046_v2.wav",
+      "ref": "medic 15 transporting 88 year old male from the assisted living on first colonial road generalized weakness unable to stand has been in bed for 3 days dehydrated bls transport",
+      "hyp": "medic 15. transporting 88-year-old male from the assisted living on 1st colonial road generalized weakness has been in bed for three days dehydrated bialis transport.",
+      "wer": 0.36666666666666664,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0046_v3.wav",
+      "ref": "medic 15 transporting 88 year old male from the assisted living on first colonial road generalized weakness unable to stand has been in bed for 3 days dehydrated bls transport",
+      "hyp": "the 8-year-old male from the assisted living on 1st colonial road generalized weakness, unable to stand, has been in bed for three days dehydrated dialis trans...",
+      "wer": 0.4,
+      "speaker_id": "spk_06"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0047_v0.wav",
+      "ref": "dispatch all units channel 1 be advised there is a suspicious package at the courthouse on princess anne road building is being evacuated stage 2 blocks south",
+      "hyp": "this is the one. the advice. there is a suspicious package at the courthouse on princess anne road building. it is being evacuated. stage 2 blocks south.",
+      "wer": 0.4074074074074074,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0047_v1.wav",
+      "ref": "dispatch all units channel 1 be advised there is a suspicious package at the courthouse on princess anne road building is being evacuated stage 2 blocks south",
+      "hyp": "dispatch all units channel one. be advised. there is a suspicious package at the courthouse. on princess anne road building. it's being evacuated. stage two blocks south.",
+      "wer": 0.2962962962962963,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0047_v2.wav",
+      "ref": "dispatch all units channel 1 be advised there is a suspicious package at the courthouse on princess anne road building is being evacuated stage 2 blocks south",
+      "hyp": "dispatch, all units channel one, be advised, there is a suspicious package at the courthouse on princess anne road building, it's being evacuated.",
+      "wer": 0.37037037037037035,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0047_v3.wav",
+      "ref": "dispatch all units channel 1 be advised there is a suspicious package at the courthouse on princess anne road building is being evacuated stage 2 blocks south",
+      "hyp": "dispatch all units channel one. be advised, there is a suspicious package at the courthouse on princess anne road building. it is being evacuated. stage 2 blocks south.",
+      "wer": 0.2222222222222222,
+      "speaker_id": "spk_07"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0048_v0.wav",
+      "ref": "medic 4 transporting to sentara bayside 60 year old female diabetic foot infection left great toe gangrenous red streaks up the leg fever 101 bp stable",
+      "hyp": "the infection left great togangrenous red streaks of the light fever 101 bp stable.",
+      "wer": 0.6538461538461539,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0048_v1.wav",
+      "ref": "medic 4 transporting to sentara bayside 60 year old female diabetic foot infection left great toe gangrenous red streaks up the leg fever 101 bp stable",
+      "hyp": "medic, four, transporting to centella bayside. 60-year-old, female diabetic, who, infection left great togangrenous, red streaks, up the leg fever. 101 bps, they...",
+      "wer": 0.5769230769230769,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0048_v2.wav",
+      "ref": "medic 4 transporting to sentara bayside 60 year old female diabetic foot infection left great toe gangrenous red streaks up the leg fever 101 bp stable",
+      "hyp": "medic 4, transporting to centauravasai, 60 year old female diabetic group. infection left great tolgang with us, red streaks, upper right fever, 101 b.p. stapler.",
+      "wer": 0.5384615384615384,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0048_v3.wav",
+      "ref": "medic 4 transporting to sentara bayside 60 year old female diabetic foot infection left great toe gangrenous red streaks up the leg fever 101 bp stable",
+      "hyp": "4. transporting to centaurabase site. 60 year old female diabetic. 5. big toe gangrenous. red streaks. 5. the life fever. 101 bp stable.",
+      "wer": 0.5769230769230769,
+      "speaker_id": "spk_08"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0049_v0.wav",
+      "ref": "dispatch medic 7 respond to 900 first colonial road for a 70 year old male with rectal bleeding large amount per caller patient is weak and dizzy",
+      "hyp": "if asked, medic 7 responds to 900 first colonial road for a seven-year-old male with risk of bleeding. large amounts for polar patients is weak and dizzy.",
+      "wer": 0.5185185185185185,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0049_v1.wav",
+      "ref": "dispatch medic 7 respond to 900 first colonial road for a 70 year old male with rectal bleeding large amount per caller patient is weak and dizzy",
+      "hyp": "this patch, medic 7, responds to 900's first colonial road for a 70 year old male with risk of bleeding, large amounts of colopatation, and jizziness.",
+      "wer": 0.5555555555555556,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0049_v2.wav",
+      "ref": "dispatch medic 7 respond to 900 first colonial road for a 70 year old male with rectal bleeding large amount per caller patient is weak and dizzy",
+      "hyp": "if at medic 7, respond to 900 first colonial road for a 70-year-old male with rectal bleeding, large amounts for collar patients, is weak",
+      "wer": 0.48148148148148145,
+      "speaker_id": "spk_09"
+    },
+    {
+      "audio": "/media/meow/One Touch/ems_call/ems_audio_syn_pipeline/experiments/ablation_results/D_combined/augmented/audio/syn_0049_v3.wav",
+      "ref": "dispatch medic 7 respond to 900 first colonial road for a 70 year old male with rectal bleeding large amount per caller patient is weak and dizzy",
+      "hyp": "if asked, medic 7 responds to 900 first colonial road for a seven-year-old male with wreck-completing large amounts of holopation. his reach and dizziness",
+      "wer": 0.5555555555555556,
+      "speaker_id": "spk_09"
+    }
+  ]
+}

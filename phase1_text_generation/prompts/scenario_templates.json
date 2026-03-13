@@ -1,0 +1,62 @@
+{
+  "scenarios": [
+    {
+      "id": "dispatch_unit",
+      "name": "Dispatch ↔ Unit",
+      "description": "Dispatcher assigning call to EMS unit"
+    },
+    {
+      "id": "patient_report",
+      "name": "Patient Report / Handoff",
+      "description": "Paramedic reporting patient condition to dispatch or hospital"
+    },
+    {
+      "id": "hospital_notification",
+      "name": "Hospital Notification",
+      "description": "EMS notifying hospital of incoming patient"
+    },
+    {
+      "id": "mass_casualty",
+      "name": "Mass Casualty / High-Stress",
+      "description": "Multiple patients, high-stress scenario"
+    },
+    {
+      "id": "chief_complaints": [
+        "chest_pain",
+        "cardiac_arrest",
+        "stroke",
+        "MVC",
+        "overdose",
+        "fall",
+        "unconscious",
+        "breathing_difficulty",
+        "maternity",
+        "trauma",
+        "gunshot",
+        "gas_leak",
+        "fire",
+        "illness"
+      ]
+    }
+  ],
+  "virginia_beach_references": {
+    "streets": [
+      "rodeo drive", "cleveland street", "j pass boulevard", "deerpond lane",
+      "26th street", "northhampton boulevard", "park avenue", "bonnie road",
+      "avalon avenue", "independence boulevard", "major andre road",
+      "hill road", "auburn drive", "south oreole circle", "brookwood crescent",
+      "jack rabbit road", "princess anne road", "indian river road",
+      "grey friars chase", "laskin road", "brentwood crescent",
+      "little neck road", "camelot drive", "revere drive", "shell cove lane"
+    ],
+    "landmarks": [
+      "champs sports bar", "trader joes", "hilltop shopping center",
+      "dollar tree", "cape henry towers", "waffle house",
+      "virginia beach healthcare and rehab", "Our Lady of Perpetual Help"
+    ],
+    "unit_patterns": [
+      "engine 14", "ladder 2", "rescue 15", "ambulance 422",
+      "EMS 1", "EMS 2", "14b", "1623p", "923p", "22p", "1420p"
+    ]
+  }
+}
