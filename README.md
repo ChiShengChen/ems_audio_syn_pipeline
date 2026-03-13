@@ -162,7 +162,77 @@ python3 phase2_speech_synthesis/tts_orchestrator.py \
 # XTTS only: --xtts_only
 ```
 
+### Speaker Profile (XTTS Voice Cloning)
+
+Phase 2 extracts **speaker profiles** from real EMS audio for XTTS voice cloning. The pipeline:
+
+1. **Extract** — `create_speaker_references_from_csv()`: 5s reference clips from human CSV audio, diverse offsets (3s, 8s, 15s, 25s), RMS energy filtering
+2. **Probe** — `probe_speaker_quality()`: synthesize probe sentences, transcribe with Whisper, filter hallucination-prone speakers (WER > 1.5)
+3. **Select** — `select_top_speakers()`: pick top 10 by lowest probe WER
+4. **Output** — `speaker_profiles.json` in `phase2_output/speaker_references/`
+
+**`speaker_profiles.json` format:**
+
+```json
+[
+  {
+    "speaker_id": "spk_07",
+    "ref_path": "phase2_output/speaker_references/ref_07.wav",
+    "source_file": "202412021022-748072-14744_call_9.wav",
+    "offset_sec": 25.0,
+    "rms_energy": 0.1247,
+    "probe_wer": 0.1
+  }
+]
+```
+
+**Output locations:**
+
+| Path | Description |
+|:-----|:-------------|
+| `phase2_output/speaker_references/` | Main pipeline (ref_XX.wav + speaker_profiles.json) |
+| `experiments/speaker_refs_5/` | Ablation: 5 speakers |
+| `experiments/speaker_refs_20/` | Ablation: 20 speakers |
+| `experiments/full_corpus_ablation_results/speaker_refs/` | Full corpus ablation |
+
 ### Phase 3: Noise Augmentation
+
+Phase 3 applies **audiomentations** + **radio channel simulation** to each clip. Each source clip produces `num_variants` augmented versions.
+
+#### Audiomentations (audiomentations library)
+
+| Transform | Parameters | Probability | Description |
+|:----------|:-----------|:-----------:|:------------|
+| **BandPassFilter** | 1850 Hz center, BW 1.65–1.7 | 90% | Radio band shaping |
+| **ClippingDistortion** | 0–10% percentile | 30% | Simulate overdrive |
+| **AddColorNoise** | SNR 12–30 dB, pink/brown (f_decay -4~-1) | 35% | Colored noise (enhanced) |
+| **AddGaussianSNR** | SNR 12–35 dB | 35% | White noise (enhanced) |
+| **GainTransition** | -10~+4 dB, 0.2–0.8 s | 35% | Gradual gain change (enhanced) |
+| **TimeStretch** | 0.8x–1.4x | 60% | Speed perturbation |
+| **PitchShift** | -3~+3 semitones | 40% | Pitch variation |
+| **Gain** | -12~+6 dB | 50% | Overall level |
+| **TimeMask** | 0–15% band part | 40% | SpecAugment-style masking |
+| **AddBackgroundNoise** | SNR 3–15 dB | 85% | EMS noise from `noise_dir` (if provided) |
+| **Mp3Compression** | 8–32 kbps | 70% | Codec simulation (if `fast_mp3_augment` installed) |
+
+Enhanced mode (`--no_enhanced` to disable): AddColorNoise + GainTransition + conservative SNR. Original mode uses only AddGaussianSNR.
+
+#### Cross-talk overlay
+
+| Effect | Parameters | Description |
+|:-------|:-----------|:-------------|
+| **Overlay** | SNR 5–15 dB, p=0.2 (default) | Mix another clip from manifest to simulate cross-talk |
+
+#### Radio channel simulator (radio_channel_simulator.py)
+
+| Effect | Parameters | Description |
+|:-------|:-----------|:-------------|
+| **PTT click** | 20 ms, p=0.7 | Push-to-talk click at start/end |
+| **Bandpass** | 300–3400 Hz | Land mobile radio bandwidth |
+| **Codec** | AMR-NB (4.75–12.2 kbps) or GSM | Encode/decode via ffmpeg (p=0.5) |
+| **Resample degrade** | 8k→16k | Fallback when codec skipped |
+| **Signal dropout** | 50 ms blocks, p=0.02/block | Random zero-out (p=0.3 to apply) |
+| **Light reverb** | 30 ms delay, decay 0.3 | Ambulance cabin (p=0.4) |
 
 ```bash
 python3 phase3_noise_augmentation/noise_augmentation.py \
