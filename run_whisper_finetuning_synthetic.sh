@@ -52,7 +52,7 @@ echo "✅ 資料準備完成"
 echo ""
 echo "步驟 2: Fine-tuning Whisper-large-v3"
 echo "----------------------------------------"
-cd "$PROJECT_DIR"
+cd "$PIPELINE_DIR"
 python3 finetune_whisper.py \
     --dataset_path "$SYNTHETIC_DATA_DIR" \
     --model_name "$MODEL_NAME" \
@@ -72,10 +72,11 @@ python3 finetune_whisper.py \
     --load_best_model_at_end \
     --metric_for_best_model wer
 
-# Step 3: 評估
+# Step 3: 評估 (需上層專案的 evaluate_finetuned_whisper.py)
 echo ""
 echo "步驟 3: 評估模型"
 echo "----------------------------------------"
+cd "$PROJECT_DIR"
 python3 evaluate_finetuned_whisper.py \
     --model_path "$OUTPUT_MODEL_DIR" \
     --test_dataset_path "${SYNTHETIC_DATA_DIR}/test" \

@@ -62,6 +62,7 @@ ems_audio_syn_pipeline/
 │   ├── ems_radio_500.jsonl      # JSONL for pipeline
 │   └── ems_radio_500_asr.csv    # CSV for reference
 ├── prepare_for_whisper.py       # Manifest → HuggingFace Dataset
+├── finetune_whisper.py          # LoRA fine-tuning for Whisper
 ├── run_phase1.sh
 ├── run_phase2.sh
 ├── run_phase3.sh
@@ -261,9 +262,18 @@ python3 prepare_for_whisper.py \
 
 Output: `whisper_training_data/{train,validation,test}/` in HuggingFace Dataset format.
 
-### Run Fine-tuning (external script)
+### Run Fine-tuning
 
-`run_whisper_finetuning_synthetic.sh` calls `finetune_whisper.py` (in parent project). Ensure that script exists and paths are correct.
+```bash
+# Via run script (prepare + finetune + evaluate)
+./run_whisper_finetuning_synthetic.sh
+
+# Or manually
+python3 prepare_for_whisper.py --manifest phase3_output/augmented_manifest.jsonl --output_dir whisper_training_data
+python3 finetune_whisper.py --dataset_path whisper_training_data --output_dir whisper_finetuned --fp16 --num_train_epochs 3
+```
+
+`finetune_whisper.py` supports: `--spec_augment`, `--use_dora`, `--early_stopping`, `--resume_from_checkpoint`.
 
 ---
 
