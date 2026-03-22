@@ -41,6 +41,8 @@ config.sh
 phase1_output/
 phase2_output/
 phase3_output/
+whisper_training_data/
+whisper_finetuned/
 phase2_speech_synthesis/phase2_output/
 experiments/full_corpus_ablation_results/
 experiments/speaker_refs_5/

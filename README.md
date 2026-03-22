@@ -63,6 +63,8 @@ ems_audio_syn_pipeline/
 │   └── ems_radio_500_asr.csv    # CSV for reference
 ├── prepare_for_whisper.py       # Manifest → HuggingFace Dataset
 ├── finetune_whisper.py          # LoRA fine-tuning for Whisper
+├── evaluate_finetuned_whisper.py
+├── run_standalone.sh            # Clone-and-run demo (no external data)
 ├── run_phase1.sh
 ├── run_phase2.sh
 ├── run_phase3.sh
@@ -76,6 +78,23 @@ ems_audio_syn_pipeline/
 ---
 
 ## Quick Start
+
+### Standalone Demo (clone and run)
+
+Run the full pipeline with **only in-repo data** — no API keys or external files:
+
+```bash
+git clone <repo-url>
+cd ems_audio_syn_pipeline
+pip install -r requirements.txt
+./run_standalone.sh
+```
+
+This uses `sample_data/ems_radio_500.jsonl`, synthesizes with Edge TTS only (XTTS/Bark skipped), augments, prepares dataset, fine-tunes 2 epochs, and evaluates. Requires: Python 3.9+, CUDA, `edge-tts`.
+
+---
+
+### Full Setup (external data)
 
 ### 1. Configure Paths
 
@@ -114,14 +133,12 @@ Or edit the run scripts directly:
 ./run_phase3.sh   # Augmentation
 ```
 
-### 4. Use Sample Data
+### 4. Standalone vs full
 
-To run without human annotations, use the bundled 500-utterance corpus:
-
-```bash
-# Edit run_phase2.sh: set CORPUS to sample_data/ems_radio_500.jsonl
-# Or skip XTTS speaker refs: use --xtts_only with existing phase2_output
-```
+| Mode | Data | TTS | Usage |
+|:-----|:-----|:----|:------|
+| **Standalone** | `sample_data/` only | Edge TTS (Bark skipped) | `./run_standalone.sh` |
+| **Full** | human_csv + audio_dirs | XTTS + Bark + Edge | Set `PROJECT_ROOT`, run `run_full_pipeline.sh` |
 
 ---
 
